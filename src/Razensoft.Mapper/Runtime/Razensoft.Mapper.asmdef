@@ -1,0 +1,22 @@
+{
+    "name": "Razensoft.Mapper",
+    "rootNamespace": "Razensoft.Mapper",
+    "references": [
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.cysharp.unitask",
+            "expression": "",
+            "define": "RAZENSOFT_MAPPER_UNITASK_SUPPORT"
+        }
+    ],
+    "noEngineReferences": true
+}
