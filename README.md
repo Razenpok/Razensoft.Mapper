@@ -7,7 +7,7 @@ A simple and fast (fastest?) object to object mapper that does not use reflectio
 
 Most of the code in this library is originating from the awesome [Dotnet-Boxed](https://github.com/Dotnet-Boxed/Framework) framework which you should definitely check out.
 
-Differences between **Razensoft.Mapper** (1.0.0) and **Dotnet-Boxed** (v5.2.0):
+Differences between **Razensoft.Mapper** (1.0.1) and **Dotnet-Boxed** (v5.2.0):
 
 - Renamed root namespace from `Boxed.Mapping` to `Razensoft.Mapper`
 - Replaced `Task` with `UniTask` in async mapping
