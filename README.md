@@ -15,13 +15,13 @@ Differences between **Razensoft.Mapper** (1.0.1) and **Dotnet-Boxed** (v5.2.0):
 
 ## Installation
 
-Add this line to your `manifest.json` file:
+There are several ways to install this library into our project:
 
-```
-"com.razensoft.mapper": "https://github.com/Razenpok/Razensoft.Mapper.git?path=src/Razensoft.Mapper#1.0.0",
-```
-
-UPM should automatically install the package.
+- **Plain install**: Clone or [download](https://github.com/Razenpok/Razensoft.Mapper/archive/master.zip) this repository and put it somewhere in your Unity project
+- **Unity Package Manager (UPM)**: Add the following line to *Packages/manifest.json*:
+  - `"com.razensoft.mapper": "https://github.com/Razenpok/Razensoft.Mapper.git?path=src/Razensoft.Mapper#1.0.0",`
+- **[OpenUPM](https://openupm.com)**: After installing [openupm-cli](https://github.com/openupm/openupm-cli), run the following command:
+  - `openupm add com.razensoft.mapper`
 
 ## Usage
 
