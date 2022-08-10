@@ -107,7 +107,7 @@ namespace Razensoft.Mapper
             await foreach (var sourceItem in source.ConfigureAwait(false).WithCancellation(cancellationToken))
             {
                 var destinationItem = new TDestination();
-                await mapper.MapAsync(sourceItem, destinationItem, cancellationToken).ConfigureAwait(false);
+                await mapper.MapAsync(sourceItem, destinationItem, cancellationToken);
                 yield return destinationItem;
             }
         }
@@ -141,7 +141,7 @@ namespace Razensoft.Mapper
 
             await foreach (var sourceItem in source.ConfigureAwait(false).WithCancellation(cancellationToken))
             {
-                var destinationItem = await mapper.MapAsync(sourceItem, cancellationToken).ConfigureAwait(false);
+                var destinationItem = await mapper.MapAsync(sourceItem, cancellationToken);
                 yield return destinationItem;
             }
         }
