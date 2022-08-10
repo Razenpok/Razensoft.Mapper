@@ -1,7 +1,7 @@
 {
   "name": "com.razensoft.mapper",
   "displayName": "Razensoft.Mapper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "unity": "2018.4",
   "description": "Simple mapper library for Unity",
   "license": "MIT"
